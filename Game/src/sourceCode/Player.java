@@ -46,4 +46,9 @@ public class Player {
 	public String toString() {
 		return String.format("Player: %s, Balance: %d, Limit: %d", name, balance, limit);
 	}
+
+	public void setBalance(int startBalance) {
+		this.balance = startBalance;
+		
+	}
 }
